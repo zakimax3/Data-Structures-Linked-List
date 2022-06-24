@@ -4,14 +4,16 @@ class LinkedList
 {
 private :
 	struct Node {
-		T data;
+		T Data;
 		Node* Next;
 	};
-
- 
 	Node* Head;
 	int NumNode; // Numbers Of The Node In LinkedList 
 public :
+	LinkedList();
+	void InsertFirst(T Data);
+	bool IsEmpty();
+
 
 };
 
